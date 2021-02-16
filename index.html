@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Result - Form</title>
+    <link rel="stylesheet" href="result.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* .text-fields {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+            background-color: #F4F0F2;
+            border: 1px solid #999;
+            font-weight: normal;
+            width: 205px;
+            padding-top: 4px;
+            padding-right: 4px;
+            padding-left: 4px;
+            padding-bottom: 4px;
+            border-radius: 4px;
+        } */
+        .m-top5 {
+            margin-top: 5px;
+        }
+        .bxshadow {
+            box-shadow: inset 0px 0px 3px 0px #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <table><!--Header Option-->
+            <thead>
+                <td class="headerleft"><img src="img/bd_logo.png" alt="logo"></td>
+                <td class="headerright">
+                    <h3>Ministry of Education</h3>
+                    <h2>Intermediate and Secondary Education Boards Bangladesh</h2>
+                    <p style="text-align: right;"><small>Official Website of Education Board</small></p>
+                </td>
+            </thead>
+            <tbody><!--table Body-->
+                <table class="bxshadow" width="450" style="margin: 20px auto; border: 1px solid #333; padding: 30px 50px;">
+                    <tr>
+                        <td><h5>Examination</h5></td>
+                        <td style="padding: 0 15px;">:</td>
+                        <td>
+                            <select style="width: 100%; background-color: #F4F0F2; border: 1px solid #999999; border-radius: 5px; padding: 5px"  type="text">
+                                <option value="HSC/Alim/Equivalent">HSC/Alim/Equivalent</option>
+                                <option value="JSC/JDC">JSC/JDC</option>
+                                <option value="SSC/Dakhil">SSC/Dakhil</option>
+                                <option value="SSC(Vocational)">SSC(Vocational)</option>
+                                <option value="HSC/Alim">HSC/Alim</option>
+                                <option value="HSC(Vocational)">HSC(Vocational)</option>
+                                <option value="HSC/BM">HSC/BM</option>
+                                <option value="Diploma In Commerce">Diploma In Commerce</option>
+                                <option value="Diploma In Business Studies">Diploma In Business Studies</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h5>Year</h5></td>
+                        <td style="padding: 0 15px;">:</td>
+                        <td>
+                            <select class="m-top5" style="width: 100%; background-color: #F4F0F2; border: 1px solid #999999; border-radius: 5px; padding: 5px"  type="text">
+                                <option value="Select One">Select One</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                                <option value="2005">2005</option>
+                                <option value="2004">2004</option>
+                                <option value="2003">2003</option>
+                                <option value="2002">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="2000">2000</option>
+                                <option value="1999">1999</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h5>Board</h5></td>
+                        <td style="padding: 0 15px;">:</td>
+                        <td>
+                            <select class="m-top5" style="width: 100%; background-color: #F4F0F2; border: 1px solid #999999; border-radius: 5px; padding: 5px"  type="text">
+                                <option value="Barisal">Barisal</option>
+                                <option value="Chittagong">Chittagong</option>
+                                <option value="Comilla">Comilla</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Dinajpur">Dinajpur</option>
+                                <option value="Jessore">Jessore</option>
+                                <option value="Mymensingh">Mymensingh</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="Madrashah">Madrashah</option>
+                                <option value="Technical">Technical</option>
+                                <option value="DIBS(Dhaka)">DIBS(Dhaka)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h5>Roll</h5></td>
+                        <td style="padding: 0 15px;">:</td>
+                        <td><input class="m-top5" style="width: 95%; background-color: #F4F0F2; border: 1px solid #999999; border-radius: 5px; padding: 5px" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><h5>Reg: No</h5></td>
+                        <td style="padding: 0 15px;">:</td>
+                        <td><input class="m-top5" style="width: 95%; background-color: #F4F0F2; border: 1px solid #999999; border-radius: 5px; padding: 5px" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><h5>5 + 1</h5></td>
+                        <td style="padding: 0 15px;">=</td>
+                        <td><input class="m-top5" style="width: 95%; background-color: #F4F0F2; border: 1px solid #999999; border-radius: 5px; padding: 5px" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td align="right">
+                            <input class="m-top5" style="padding: 3px 10px;" type="reset" value="Reset">
+                            <input class="m-top5" style="padding: 3px 10px;" type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <table class="copyright" width="100%" style="font-size: 10px; color: #656b70;">  
+                        <tr>
+                            <td width="65%">&copy;2005-2020 Ministry of Education, All rights reserved.</td>
+                            <td width="35%" align="right">
+                                <table width="100%">
+                                    <tr>
+                                        <td><p>Powered by Teletalk</p></td>
+                                        <td><img src="img/tbl_logo.png" alt=""></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
